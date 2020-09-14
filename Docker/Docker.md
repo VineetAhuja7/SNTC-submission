@@ -23,6 +23,6 @@ Whenever we restart conatiner it gets a fresh start and changes in virtual syste
 
 we can use this command to create volume
 ```
-docker run-v <directory_on_host:directory_in_container>
+docker run -v <directory_on_host:directory_in_container>
 ```
 

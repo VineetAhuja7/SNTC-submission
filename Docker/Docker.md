@@ -18,4 +18,11 @@ sudo groupadd docker
 ```
 sudo usermod -aG docker $USER
 ```
+# TASK 3
+Whenever we restart conatiner it gets a fresh start and changes in virtual system is gone so we mount the virtual system in container on host in physical system
+
+we can use this command to create volume
+```
+docker run-v <directory_on_host:directory_in_container>
+```
 
